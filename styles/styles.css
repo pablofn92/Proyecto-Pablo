@@ -88,16 +88,23 @@ article {
     
 }
 .github-foto {
-      display: flex;
-    width: auto;
-    flex-direction: left;
-    display: left;
-    align-items: left;  
-    justify-content: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
     margin: 0 10px;
     padding: 20;
-    
+        
 }
+.linkedin-foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 10px;
+    padding: 20;
+        
+}   
 .texto1 {
     grid-area: texto1;
     text-align: center;
@@ -223,6 +230,10 @@ p {
  padding: 20px;
 
 }
+.img-fluid {
+    width: 100px;
+    margin: 20px auto;
+}
 .contacto {
     display: flex;
     flex-direction: column;
@@ -234,6 +245,15 @@ p {
     margin: 10px auto;
     border-radius: 10px;
     overflow: hidden;
+}
+
+.github {
+    grid-area: github;
+    margin-bottom: 20px;
+}
+.linkedin {
+    grid-area: linkedin;
+    margin-bottom: 20px;
 }
 
 .titulo-index {
@@ -271,6 +291,17 @@ p {
         "index2"
         "index3" 
         "index4";
+        gap: 20px;
+        padding: 20px
+}
+
+.contactos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "github"
+        "linkedin";
         gap: 20px;
         padding: 20px
 }
@@ -313,6 +344,14 @@ p {
             "index3 index4";
     }
 }
+@media (min-width: 769px) and (max-width: 1023px) {
+    .contactos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "github linkedin";
+    }
+}
 
 /* Media Query for Desktop Devices */
 @media (min-width: 1024px) {
@@ -334,5 +373,13 @@ p {
             "indextitulo indextitulo indextitulo"
             "index1 index2 index3"
             "index4 index4 index4";
+    }
+}
+@media (min-width: 1024px) {
+    .contactos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "github linkedin";
     }
 }

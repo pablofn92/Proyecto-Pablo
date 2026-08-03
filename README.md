@@ -1,4 +1,23 @@
-# Proyecto-Pablo
+# Pagina Web - Pablo Napoli 🚀
+
+¡Bienvenido a mi primer proyecto de desarrollo web! Esta página está diseñada con la temática de **Hollow Knight** y desarrollada con el fin de aprender programación y diseño web responsivo.
+
+🌐 **¡Mirá el sitio en vivo acá!**  
+👉 [Visitar proyecto en GitHub Pages](https://github.com/pablofn92/Proyecto-Pablo)
+
+---
+
+## 🛠️ Tecnologías utilizadas
+* **HTML5** - Estructura semántica del sitio.
+* **SASS / SCSS** - Estilos ordenados, variables y anidamiento.
+* **Bootstrap 5** - Componentes dinámicos como el menú colapsable y el acordeón.
+* **CSS Grid & Flexbox** - Diseño y maquetación estructurada.
+
+## 📂 Estructura del proyecto
+* `/assets` - Imágenes oficiales de Hollow Knight y fotos personales.
+* `/pages` - Secciones secundarias (Inicio, Sobre mí, Proyectos, Contacto).
+* `/styles` - Hojas de estilo procesadas con SCSS.
+
 
 Aprendiendo de 0 
 31/7 
@@ -10,3 +29,6 @@ se agrega librerías de Bootstrap al índice, nav bar y pagina Sobre mi.
 
 2/8 
 Se agrega el uso de git y se modifican archivos en una rama para despues hacer el merge a la rama principal.
+
+3/8
+Se pasa todo el contenido de css a scss, adicionando mixin y extend

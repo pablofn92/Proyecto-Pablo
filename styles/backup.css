@@ -10,7 +10,7 @@ padding: 0;
 /*  font-family: "EB Garamond", serif; */
 
 
-/* Header */
+
 header {
     margin-bottom: 20px;
     padding: 20px;
@@ -19,67 +19,43 @@ header {
     background-color: rgba(0, 0, 0, 0.5)
     
 }
-.navbar {    
-    display: flex;
-    padding: 20px;
-    gap: 20px;
-}
-.logo {
-  display: flex;
-  align-items: center;    
-  justify-content: center; 
-  width: 650px;            
-  height: 200px;
-  border-radius: 50%;     
-  overflow: hidden;       
-  margin-right: 20px;
-}
 
 
-header nav 
-
-
-
-
-
-ul {
-    flex-grow: 1;
-    display: flex;
-    list-style: georgian;
-    list-style-position: inside;
-    font-size: 2rem;
-    font-family: "EB Garamond", serif;
-    color: #79c3ee;
-    flex-direction: column;
-    text-align: right;
-}
-
-.nav-link {
-    color: #79c3ee;
-    font-size: 1rem;
-    padding: 10px;   
-}
-
-.nav-link:hover{
-    color: aliceblue;
-     transition: color 1s ease;
-}
-
-
-/* body */
 body {
     gap: 20px;
     font-family: "EB Garamond", serif;
     background-color: #0f0f0f;
     margin: 0;
-    padding: 0;       
-}
-.fondo {
-    background-image: url(../assets/img/hollow.jpeg);
-    background-size: cover;
-    padding: 20px;    
+    padding: 0;
+    
 }
 
+
+.banner {
+    display: flex;
+    width: 25%;
+    flex-direction: left;
+    display: left;
+    align-items: left;  
+    justify-content: left;
+    margin: 0 10px;
+    padding: 20;
+
+}
+
+section    {
+    margin-bottom: 1rem;
+    padding: 20px;
+}
+
+article {
+    
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
 .accordion-button {
     background-color: rgba(0, 0, 0, 0.1);
     color: #79c3ee;
@@ -102,108 +78,33 @@ body {
     gap: 20px;
 }
 
-section    {
-    margin-bottom: 1rem;
-    padding: 20px;
-}
 
-article {    
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 2px solid #000000;
-    border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.5)
-}
 
-h2,h3 {
-    font-family: "Cinzel", serif;
-    color: #79c3ee;
-    font-size: 2rem;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-p {
-    color: #79c3ee;
-    line-height: 1.5rem;
-    font-size: 1rem;
-    padding: 10px;    
-}
-
-/* imagenes */
 .foto-inicio {
     grid-area: foto-inicio;
     text-align: center;
     display: flex;
-    align-items: row;    
+    align-items: row;
+    
 }
-
 .github-foto {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 10px;
-    padding: 20;        
+    padding: 20;
+        
 }
-
 .linkedin-foto {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 10px;
-    padding: 20;        
+    padding: 20;
+        
 }   
-
-img {
-    display: block;
-    margin: 0 auto;
-    height: auto;
-}
-
-.secondary {
- background-image: url(../assets/img/hollowknight.jpg);
- background-size: cover;
- padding: 20px;
-}
-
-.img-fluid {
-    width: 100px;
-    margin: 20px auto;
-}
-
-.contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* bootstrap */
-.carousel {
-    width: 100%;
-    max-width: 500px;
-    margin: 10px auto;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-/* Footer */
-.footer {
-    grid-area: footer;
-    padding: 20px;
-    text-align: left;
-    font-size: 0.8rem;
-    color: #79c3ee; 
-}
-
-.back:hover {
-    color: aliceblue;
-    cursor: pointer;
-}
-
-
-/* Grid Layout */
 .texto1 {
     grid-area: texto1;
     text-align: center;
@@ -232,8 +133,119 @@ img {
         "foto-inicio"
         "izquierda"
         "derecha"
+    
+   
 }
 
+
+.logo {
+  display: flex;
+  align-items: center;    
+  justify-content: center; 
+  width: 650px;            
+  height: 200px;
+  border-radius: 50%;     
+  overflow: hidden;       
+  margin-right: 20px;
+}
+
+ul {
+    flex-grow: 1;
+    display: flex;
+    list-style: georgian;
+    list-style-position: inside;
+    font-size: 2rem;
+    font-family: "EB Garamond", serif;
+    color: #79c3ee;
+    flex-direction: column;
+    text-align: right;
+
+}
+
+.navbar {
+    
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.navbar-index {
+    background-color: hsla(209, 29%, 47%, 0.158)
+
+}
+.nav-link {
+    color: #79c3ee;
+    font-size: 1rem;
+    padding: 10px;
+   
+}
+
+.nav-link:hover{
+    color: aliceblue;
+     transition: color 1s ease;
+}
+
+h1 {
+    padding : 20px;
+    font-family: "Cinzel", serif;
+    color: #79c3ee;
+    text-align: center; 
+    font-size: 4rem;
+    font-weight: auto;
+    margin-bottom: 20px;
+}
+
+h2,h3 {
+    font-family: "Cinzel", serif;
+    color: #79c3ee;
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+p {
+    color: #79c3ee;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 10px;
+    
+}
+
+.fondo {
+    background-image: url(../assets/img/hollow.jpeg);
+    background-size: cover;
+    padding: 20px;
+
+}
+.secondary {
+ 
+ background-image: url(../assets/img/hollowknight.jpg);
+ background-size: cover;
+ padding: 20px;
+
+}
+.img-fluid {
+    width: 100px;
+    margin: 20px auto;
+}
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
 
 .github {
     grid-area: github;
@@ -294,6 +306,20 @@ img {
         padding: 20px
 }
 
+.footer {
+    grid-area: footer;
+    padding: 20px;
+    text-align: left;
+    font-size: 0.8rem;
+    color: #79c3ee; 
+}
+
+.back:hover {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
 
 /* Media Query for Tablet Devices */
 @media (min-width: 769px) and (max-width: 1023px) {
@@ -318,7 +344,6 @@ img {
             "index3 index4";
     }
 }
-
 @media (min-width: 769px) and (max-width: 1023px) {
     .contactos {
         grid-template-columns: 1fr 1fr;

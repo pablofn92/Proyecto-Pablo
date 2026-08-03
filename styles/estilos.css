@@ -1,0 +1,36 @@
+header {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5) h1;
+  background-color-padding: 20px;
+  background-color-font-family: "Cinzel", serif;
+  background-color-color: #79c3ee;
+  background-color-text-align: center;
+  background-color-font-size: 4rem;
+  background-color-font-weight: auto;
+  background-color-margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+.navbar .navbar-index {
+  background-color: hsla(209, 29%, 47%, 0.158);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 650px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

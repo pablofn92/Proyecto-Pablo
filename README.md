@@ -1,9 +1,8 @@
+# 🌐 [¡Visitar sitio en vivo en GitHub Pages!](https://github.com/pablofn92/Proyecto-Pablo)
+
 # Pagina Web - Pablo Napoli 🚀
 
 ¡Bienvenido a mi primer proyecto de desarrollo web! Esta página está diseñada con la temática de **Hollow Knight** y desarrollada con el fin de aprender programación y diseño web responsivo.
-
-🌐 **¡Mirá el sitio en vivo acá!**  
-👉 [Visitar proyecto en GitHub Pages](https://github.com/pablofn92/Proyecto-Pablo)
 
 ---
 
@@ -18,8 +17,7 @@
 * `/pages` - Secciones secundarias (Inicio, Sobre mí, Proyectos, Contacto).
 * `/styles` - Hojas de estilo procesadas con SCSS.
 
-
-Aprendiendo de 0 
+Aprendiendo de 0<br>
 31/7 
 Entrega de Clase 5. Agregado de correcciones de clase anterior y librerías de Bootstrap
 

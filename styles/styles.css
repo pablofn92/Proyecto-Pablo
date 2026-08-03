@@ -36,7 +36,12 @@ header {
 }
 
 
-header nav 
+header nav h1 {
+    font-family: "EB Garamond", serif;
+    color: #79c3ee;
+    font-size: 2rem;
+    padding: 10px;
+}
 
 
 

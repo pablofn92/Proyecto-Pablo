@@ -1,0 +1,64 @@
+// MEDIA QUERIES
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .inicio {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas:
+            "texto1 texto1"
+            "foto-inicio izquierda"
+            "foto-inicio izquierda"
+            "foto-inicio derecha";
+   
+    }
+}
+@media (min-width: 769px) and (max-width: 1023px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            "indextitulo indextitulo"
+            "index1 index2"
+            "index3 index4";
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .contactos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "github linkedin";
+    }
+}
+
+/* Media Query for Desktop Devices */
+@media (min-width: 1024px) {
+    .inicio {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "texto1 texto1 texto1"
+            "foto-inicio izquierda derecha"
+            "foto-inicio izquierda derecha";
+     
+    }
+}
+@media (min-width: 1024px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "indextitulo indextitulo indextitulo"
+            "index1 index2 index3"
+            "index4 index4 index4";
+    }
+}
+@media (min-width: 1024px) {
+    .contactos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "github linkedin";
+    }
+}

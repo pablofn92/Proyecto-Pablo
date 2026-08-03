@@ -1,0 +1,9 @@
+@use "../generales/variables" as*;
+
+.carousel {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}

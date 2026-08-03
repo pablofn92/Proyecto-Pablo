@@ -1,0 +1,35 @@
+@use "../generales/variables" as*;
+
+.contactos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "github"
+        "linkedin";
+    gap: 20px;
+    padding: 20px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-fluid {
+    width: 100px;
+    margin: 20px auto;
+}
+
+.github-foto, .linkedin-foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 10px;
+    padding: 20px;     
+}
+.github { grid-area: github; margin-bottom: 20px; }
+.linkedin { grid-area: linkedin; margin-bottom: 20px; }
+

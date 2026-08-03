@@ -1,0 +1,39 @@
+@use "../generales/variables" as*;
+
+.secondary {
+    background-image: url(../assets/img/hollowknight.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+.foto-inicio {
+    grid-area: foto-inicio;
+    text-align: center;
+    display: flex;
+}
+
+.inicio {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "texto1"
+        "foto-inicio"
+        "izquierda"
+        "derecha";
+
+    .texto1 {
+        grid-area: texto1;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .inicio1 { grid-area: izquierda; }
+    .inicio2 { grid-area: derecha; }
+    .iniciofoto {
+        grid-area: foto;
+        width: 100%;
+        padding: 20px;
+    }
+}

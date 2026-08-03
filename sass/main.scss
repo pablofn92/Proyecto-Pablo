@@ -1,34 +1,16 @@
-header {
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.5)
-    h1 {
-    padding : 20px;
-    font-family: "Cinzel", serif;
-    color: #79c3ee;
-    text-align: center; 
-    font-size: 4rem;
-    font-weight: auto;
-    margin-bottom: 20px;
-    }
-}
-.navbar {    
-    display: flex;
-    padding: 20px;
-    gap: 20px;
-    .navbar-index {
-    background-color: hsla(209, 29%, 47%, 0.158)
-    }
-}
-.logo {
-  display: flex;
-  align-items: center;    
-  justify-content: center; 
-  width: 650px;            
-  height: 200px;
-    border-radius: 50%;     
-    overflow: hidden;       
-    margin-right: 20px;
-    }
+/*Comentario css*/
+
+//Comentario Sass
+
+
+@use "./generales/variables";
+@use "./generales/reset";
+@use "./generales/headerFooter";
+@use "./page/index";
+@use "./page/inicio";
+@use "./page/sobre-mi";
+@use "./page/proyectos";
+@use "./page/contacto";
+
+@use "./generales/mediaQueries";
+

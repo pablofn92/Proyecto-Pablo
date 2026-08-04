@@ -22,6 +22,15 @@
             "index3 index4";
     }
 }
+@media (min-width: 769px) and (max-width: 1023px) {
+    .grid-proyecto {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "proyecto-titulo proyecto-titulo"
+            "proyecto1 proyecto2";
+    }
+}
 
 @media (min-width: 769px) and (max-width: 1023px) {
     .contactos {
@@ -54,6 +63,17 @@
             "index4 index4 index4";
     }
 }
+
+@media (min-width: 1024px) {
+    .grid-proyecto {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "proyecto-titulo proyecto1 proyecto2";
+            
+    }
+}
+
 @media (min-width: 1024px) {
     .contactos {
         grid-template-columns: 1fr 1fr;

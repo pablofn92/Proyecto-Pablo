@@ -217,6 +217,30 @@ article {
   overflow: hidden;
 }
 
+.proyecto-titulo {
+  grid-area: proyecto-titulo;
+  text-align: center;
+}
+
+.proyecto1 {
+  grid-area: proyecto1;
+  text-align: center;
+}
+
+.proyecto2 {
+  grid-area: proyecto2;
+  text-align: center;
+}
+
+.grid-proyecto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "proyecto-titulo" "proyecto1" "proyecto2";
+  gap: 20px;
+  padding: 20px;
+}
+
 .contactos {
   display: grid;
   grid-template-columns: 1fr;
@@ -271,6 +295,13 @@ article {
   }
 }
 @media (min-width: 769px) and (max-width: 1023px) {
+  .grid-proyecto {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "proyecto-titulo proyecto-titulo" "proyecto1 proyecto2";
+  }
+}
+@media (min-width: 769px) and (max-width: 1023px) {
   .contactos {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -290,6 +321,13 @@ article {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     grid-template-areas: "indextitulo indextitulo indextitulo" "index1 index2 index3" "index4 index4 index4";
+  }
+}
+@media (min-width: 1024px) {
+  .grid-proyecto {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "proyecto-titulo proyecto1 proyecto2";
   }
 }
 @media (min-width: 1024px) {

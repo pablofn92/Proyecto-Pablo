@@ -1,1 +1,26 @@
 @use "../generales/variables" as*;
+
+.proyecto-titulo {
+    grid-area: proyecto-titulo;
+    text-align: center;
+}
+.proyecto1 {
+    grid-area: proyecto1;
+    text-align: center;
+}
+.proyecto2 {
+    grid-area: proyecto2;
+    text-align: center;
+}
+
+.grid-proyecto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "proyecto-titulo"
+        "proyecto1"
+        "proyecto2";
+    gap: 20px;
+    padding: 20px;
+}

@@ -5,6 +5,16 @@ $bg-oscuro: #0f0f0f;
 $bg-transparente: rgba(0, 0, 0, 0.5);
 $bg-accordion-btn: rgba(0, 0, 0, 0.1);
 $border-negro: 2px solid #000000;
+$border-blanco: 1px solid #ffffff;
+
 
 $font-titulo: "Cinzel", serif;
 $font-cuerpo: "EB Garamond", serif;
+
+@mixin enlaces {
+    scale: (1.3);
+    background-image: linear-gradient(to bottom, $bg-transparente, $bg-accordion-btn);
+    border: $border-blanco;
+    transition: 1.25s ease;
+    color: $color-hover;
+}

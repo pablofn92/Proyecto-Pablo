@@ -50,8 +50,8 @@ header {
         padding: 10px;   
 
         &:hover {
-            color: $color-hover;
-            transition: color 1s ease;
+            @include enlaces;
+           
         }
     }
 }
@@ -67,6 +67,5 @@ header {
 }
 
 .back:hover {
-    color: $color-hover;
-    cursor: pointer;
+    @include enlaces;
 }

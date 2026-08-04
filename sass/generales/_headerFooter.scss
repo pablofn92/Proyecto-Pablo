@@ -56,14 +56,15 @@ header {
     }
 }
 
-//FOOTER
 
+//FOOTER
 .footer {
     grid-area: footer;
     padding: 20px;
     text-align: left;
     font-size: 0.8rem;
     color: $color-principal; 
+    
 }
 
 .back:hover {

@@ -43,11 +43,20 @@ section {
 }
 
 article {    
-    margin-bottom: 20px;
-    padding: 20px;
-    border: $border-negro;
-    border-radius: 20px;
-    background-color: $bg-transparente;
+padding: 12px 24px;
+  background-color: $bg-accordion-btn;
+  color: $color-hover;
+  border: 2px solid $bg-oscuro;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  padding: 20px;
+  margin-bottom: 20px;
+    &:hover {
+        background-color: $bg-transparente;
+  color: #000;
+  box-shadow: $color-principal 0px 0px 10px;
+    }
 }
 
 

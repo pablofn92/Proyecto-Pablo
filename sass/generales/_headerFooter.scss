@@ -69,4 +69,6 @@ header {
 
 .back:hover {
     @include enlaces;
+    text-align: center;
+    display: block;
 }

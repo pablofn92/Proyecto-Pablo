@@ -28,7 +28,10 @@
     border-radius: 50%;
     object-fit: cover;
     margin: 0 10px;
-    padding: 20px;     
+    padding: 20px;
+    &:hover {
+        @include enlaces;
+    }     
 }
 .github { grid-area: github; margin-bottom: 20px; }
 .linkedin { grid-area: linkedin; margin-bottom: 20px; }

@@ -50,23 +50,25 @@ header {
         padding: 10px;   
 
         &:hover {
-            color: $color-hover;
-            transition: color 1s ease;
+            @include enlaces;
+           
         }
     }
 }
 
-//FOOTER
 
+//FOOTER
 .footer {
     grid-area: footer;
     padding: 20px;
     text-align: left;
     font-size: 0.8rem;
     color: $color-principal; 
+    
 }
 
 .back:hover {
-    color: $color-hover;
-    cursor: pointer;
+    @include enlaces;
+    text-align: center;
+    display: block;
 }

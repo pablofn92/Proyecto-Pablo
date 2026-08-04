@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# 🌐 [¡Visitar sitio en vivo en GitHub Pages!](https://github.com/pablofn92/Proyecto-Pablo)
-=======
 # 🌐 [¡Visitar sitio en vivo en GitHub Pages!](https://pablofn92.github.io/Proyecto-Pablo/)
 >>>>>>> 8d2cd07079f3600c39a28dd46650a8daeb3aa44a
 
